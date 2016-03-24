@@ -12,16 +12,18 @@
 		A760C1581CA2C16F006194CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A760C1561CA2C16F006194CA /* Main.storyboard */; };
 		A760C15A1CA2C16F006194CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A760C1591CA2C16F006194CA /* Assets.xcassets */; };
 		A760C15D1CA2C16F006194CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A760C15B1CA2C16F006194CA /* LaunchScreen.storyboard */; };
+		A760C1651CA2C3D4006194CA /* 520.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A760C1641CA2C3D4006194CA /* 520.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A760C14F1CA2C16F006194CA /* manyControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manyControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A760C14F1CA2C16F006194CA /* UIButton+UIlabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIButton+UIlabel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A760C1521CA2C16F006194CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A760C1541CA2C16F006194CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A760C1571CA2C16F006194CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A760C1591CA2C16F006194CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A760C15C1CA2C16F006194CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A760C15E1CA2C16F006194CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A760C1641CA2C3D4006194CA /* 520.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 520.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		A760C1501CA2C16F006194CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A760C14F1CA2C16F006194CA /* manyControl.app */,
+				A760C14F1CA2C16F006194CA /* UIButton+UIlabel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +56,13 @@
 		A760C1511CA2C16F006194CA /* manyControl */ = {
 			isa = PBXGroup;
 			children = (
+				A760C1641CA2C3D4006194CA /* 520.jpg */,
 				A760C1521CA2C16F006194CA /* AppDelegate.swift */,
-				A760C1541CA2C16F006194CA /* ViewController.swift */,
-				A760C1561CA2C16F006194CA /* Main.storyboard */,
 				A760C1591CA2C16F006194CA /* Assets.xcassets */,
-				A760C15B1CA2C16F006194CA /* LaunchScreen.storyboard */,
 				A760C15E1CA2C16F006194CA /* Info.plist */,
+				A760C15B1CA2C16F006194CA /* LaunchScreen.storyboard */,
+				A760C1561CA2C16F006194CA /* Main.storyboard */,
+				A760C1541CA2C16F006194CA /* ViewController.swift */,
 			);
 			path = manyControl;
 			sourceTree = "<group>";
@@ -67,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A760C14E1CA2C16F006194CA /* manyControl */ = {
+		A760C14E1CA2C16F006194CA /* UIButton+UIlabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A760C1611CA2C16F006194CA /* Build configuration list for PBXNativeTarget "manyControl" */;
+			buildConfigurationList = A760C1611CA2C16F006194CA /* Build configuration list for PBXNativeTarget "UIButton+UIlabel" */;
 			buildPhases = (
 				A760C14B1CA2C16F006194CA /* Sources */,
 				A760C14C1CA2C16F006194CA /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = manyControl;
+			name = "UIButton+UIlabel";
 			productName = manyControl;
-			productReference = A760C14F1CA2C16F006194CA /* manyControl.app */;
+			productReference = A760C14F1CA2C16F006194CA /* UIButton+UIlabel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +99,11 @@
 				TargetAttributes = {
 					A760C14E1CA2C16F006194CA = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SEXTE6L662;
 					};
 				};
 			};
-			buildConfigurationList = A760C14A1CA2C16F006194CA /* Build configuration list for PBXProject "manyControl" */;
+			buildConfigurationList = A760C14A1CA2C16F006194CA /* Build configuration list for PBXProject "UIButton+UIlabel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A760C14E1CA2C16F006194CA /* manyControl */,
+				A760C14E1CA2C16F006194CA /* UIButton+UIlabel */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +129,7 @@
 				A760C15D1CA2C16F006194CA /* LaunchScreen.storyboard in Resources */,
 				A760C15A1CA2C16F006194CA /* Assets.xcassets in Resources */,
 				A760C1581CA2C16F006194CA /* Main.storyboard in Resources */,
+				A760C1651CA2C3D4006194CA /* 520.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +184,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Wang (MRH64367L4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tao Wang (MRH64367L4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -201,6 +207,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d1c5c748-4322-4403-97a3-7051b3d4ad64";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -224,7 +231,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Wang (MRH64367L4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tao Wang (MRH64367L4)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -239,6 +247,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d1c5c748-4322-4403-97a3-7051b3d4ad64";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -249,10 +258,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = manyControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.9elephas.manyControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIButton+UIlabel";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,17 +272,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = manyControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.9elephas.manyControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIButton+UIlabel";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A760C14A1CA2C16F006194CA /* Build configuration list for PBXProject "manyControl" */ = {
+		A760C14A1CA2C16F006194CA /* Build configuration list for PBXProject "UIButton+UIlabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A760C15F1CA2C16F006194CA /* Debug */,
@@ -279,13 +294,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A760C1611CA2C16F006194CA /* Build configuration list for PBXNativeTarget "manyControl" */ = {
+		A760C1611CA2C16F006194CA /* Build configuration list for PBXNativeTarget "UIButton+UIlabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A760C1621CA2C16F006194CA /* Debug */,
 				A760C1631CA2C16F006194CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
